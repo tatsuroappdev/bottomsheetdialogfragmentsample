@@ -1,4 +1,4 @@
-package com.tatsuro.app.bottomsheetdialogfragmentsample.ui.main
+package com.tatsuro.app.bottomsheetdialogfragmentsample.ui.typeselect
 
 import android.view.LayoutInflater
 import android.view.View

@@ -11,7 +11,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.tatsuro.app.bottomsheetdialogfragmentsample.IncomeOrExpenseType
 import com.tatsuro.app.bottomsheetdialogfragmentsample.databinding.TypeSelectBottomSheetBinding
-import com.tatsuro.app.bottomsheetdialogfragmentsample.ui.main.TypeAdapter
 
 class TypeSelectBottomSheet : BottomSheetDialogFragment() {
 
