@@ -18,6 +18,10 @@ class MainFragment : Fragment(R.layout.main_fragment) {
         /** 種類選択ボトムシートから選択された種類を取得するためのリクエストキー */
         private const val REQUEST_KEY_TYPE_SELECT = "typeSelect"
 
+        /**
+         * フラグメントのインスタントを返す。
+         * @return フラグメントインスタント
+         */
         fun newInstance() = MainFragment()
     }
 
