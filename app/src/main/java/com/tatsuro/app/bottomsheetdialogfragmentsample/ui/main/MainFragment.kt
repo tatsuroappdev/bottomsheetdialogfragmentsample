@@ -11,6 +11,7 @@ import com.tatsuro.app.bottomsheetdialogfragmentsample.R
 import com.tatsuro.app.bottomsheetdialogfragmentsample.databinding.MainFragmentBinding
 import com.tatsuro.app.bottomsheetdialogfragmentsample.ui.typeselect.TypeSelectBottomSheet
 
+/** メインフラグメント */
 class MainFragment : Fragment(R.layout.main_fragment) {
 
     companion object {
