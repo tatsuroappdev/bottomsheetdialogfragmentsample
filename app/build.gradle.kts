@@ -68,6 +68,11 @@ dependencies {
 
     implementation("com.google.android.material:material:1.3.0")
 
+    // Flipper
+    debugImplementation("com.facebook.flipper:flipper:0.96.1")
+    debugImplementation("com.facebook.soloader:soloader:0.10.1")
+    releaseImplementation("com.facebook.flipper:flipper-noop:0.96.1")
+
     debugImplementation("com.squareup.leakcanary:leakcanary-android:2.7")
 
     testImplementation("junit:junit:4.13.2")
