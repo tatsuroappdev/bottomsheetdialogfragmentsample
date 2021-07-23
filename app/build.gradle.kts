@@ -66,12 +66,12 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1")
     implementation("androidx.lifecycle:lifecycle-common-java8:2.3.1")
 
-    implementation("com.google.android.material:material:1.3.0")
+    implementation("com.google.android.material:material:1.4.0")
 
     // Flipper
-    debugImplementation("com.facebook.flipper:flipper:0.96.1")
+    debugImplementation("com.facebook.flipper:flipper:0.99.0")
     debugImplementation("com.facebook.soloader:soloader:0.10.1")
-    releaseImplementation("com.facebook.flipper:flipper-noop:0.96.1")
+    releaseImplementation("com.facebook.flipper:flipper-noop:0.99.0")
 
     debugImplementation("com.squareup.leakcanary:leakcanary-android:2.7")
 
