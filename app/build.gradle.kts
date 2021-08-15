@@ -1,21 +1,17 @@
-val kotlinVersion: String by project
-
 plugins {
     id("com.android.application")
     kotlin("android")
 }
 
 android {
-    compileSdkVersion(30)
-    buildToolsVersion("30.0.3")
+    compileSdk = 31
 
     defaultConfig {
         applicationId = "com.tatsuro.app.bottomsheetdialogfragmentsample"
-        minSdkVersion(21)
-        targetSdkVersion(30)
+        minSdk = 21
+        targetSdk = 31
         versionCode = 1
         versionName = "1.0"
-
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -54,12 +50,10 @@ android {
 
 dependencies {
 
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion")
-
     implementation("androidx.core:core-ktx:1.6.0")
-    implementation("androidx.appcompat:appcompat:1.3.0")
-    implementation("androidx.constraintlayout:constraintlayout:2.0.4")
-    implementation("androidx.fragment:fragment-ktx:1.3.5")
+    implementation("androidx.appcompat:appcompat:1.3.1")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.0")
+    implementation("androidx.fragment:fragment-ktx:1.3.6")
     implementation("androidx.recyclerview:recyclerview:1.2.1")
 
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.3.1")
@@ -69,9 +63,9 @@ dependencies {
     implementation("com.google.android.material:material:1.4.0")
 
     // Flipper
-    debugImplementation("com.facebook.flipper:flipper:0.99.0")
+    debugImplementation("com.facebook.flipper:flipper:0.102.0")
     debugImplementation("com.facebook.soloader:soloader:0.10.1")
-    releaseImplementation("com.facebook.flipper:flipper-noop:0.99.0")
+    releaseImplementation("com.facebook.flipper:flipper-noop:0.102.0")
 
     debugImplementation("com.squareup.leakcanary:leakcanary-android:2.7")
 

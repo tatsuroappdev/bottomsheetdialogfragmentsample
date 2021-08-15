@@ -18,14 +18,14 @@ class App : Application() {
     companion object {
 
         /** Appインスタンス */
-        private var instance: App? = null
+        private lateinit var instance: App
 
         /**
          * Returns a localized string from the application's package's default string table.
          * @param resId Resource id for the string
          * @return The string data associated with the resource, stripped of styled text information.
          */
-        fun getString(@StringRes resId: Int) = instance!!.getString(resId)
+        fun getString(@StringRes resId: Int) = instance.getString(resId)
     }
 
     override fun onCreate() {
